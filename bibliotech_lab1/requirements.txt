@@ -1,0 +1,19 @@
+# Partie 1 - Monolithe
+PyQt5>=5.15
+
+# Commun aux 3 parties
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+
+# Partie 2 - SOAP
+spyne>=2.14
+lxml>=5.0
+
+# Partie 3 - REST
+fastapi>=0.115
+uvicorn>=0.30
+pydantic>=2.8
+
+# Tests / qualité
+pytest>=8.4.1
+black>=25.1.0
